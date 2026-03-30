@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-        IMAGE_NAME = 'your-dockerhub-username/my-jenkins-app'
+        IMAGE_NAME = 'NewSpringbrookHSPage/my-jenkins-app'
     }
 
     stages {
